@@ -1,6 +1,17 @@
-// Code your solution in this file!
 
 
+function switchOnCharmFromTip(tip) {
+  switch(tip) {
+    case 'generous':
+      return 'Thank you so much.';
+    case 'not as generous':
+      return 'Thank you.';
+    default:
+      return 'Bye.';
+  }
+
+
+}
 
 function scuberGreetingForFeet(feet) {
   if (feet <= 400) {
@@ -18,18 +29,7 @@ function ternaryCheckCity(city) {
   }
 
 
-function switchOnCharmFromTip(tip) {
-  switch(tip) {
-    case 'generous':
-      return 'Thank you so much.';
-    case 'not as generous':
-      return 'Thank you.';
-    default:
-      return 'Bye.';
-  }
 
-
-}
 
 
 
